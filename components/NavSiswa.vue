@@ -5,30 +5,16 @@
       <h1 class="text-2xl font-extrabold tracking-wider">✨ Ghoni<span class="text-yellow-300">Dev</span></h1>
 
       <!-- Desktop Navigation -->
-      <nav class="hidden md:block">
-        <ul class="flex space-x-8 text-white font-medium">
-          <li>
-            <a href="#home" class="hover:text-yellow-300 transition duration-300 ease-in-out transform hover:scale-105">
-              Home
-            </a>
-          </li>
-          <li>
-            <a href="#about" class="hover:text-yellow-300 transition duration-300 ease-in-out transform hover:scale-105">
-              About
-            </a>
-          </li>
-          <li>
-            <a href="#projects" class="hover:text-yellow-300 transition duration-300 ease-in-out transform hover:scale-105">
-              Projects
-            </a>
-          </li>
-          <li>
-            <a href="#contact" class="hover:text-yellow-300 transition duration-300 ease-in-out transform hover:scale-105">
-              Contact
-            </a>
-          </li>
-        </ul>
-      </nav>
+    <nav class="hidden md:block">
+    <ul class="flex space-x-8 text-white font-medium">
+        <li>
+        <NuxtLink to="/" class="hover:text-yellow-300 transition duration-300 ease-in-out transform hover:scale-105">
+           <img src="/img/icon.png" alt="home">
+        </NuxtLink>
+        </li>
+    </ul>
+    </nav>
+
 
       <!-- Mobile Menu Button -->
       <div class="md:hidden">
